@@ -4,6 +4,7 @@ Objective:
 Programmatically generate three distinct visual mediums—an executive dashboard, an academic presentation, and a public poster—to communicate regional childcare demographics and cost outliers.
 
 Data Notice & Methodology:
+
 Important Note: This project relies on a rigorously structured, synthetic dataset rather than real-world census data.
 I synthesized a log-normal dataset of 23,593 records designed specifically to match established statistical boundaries, featuring a mean of 16.39% and a maximum of 54.3%. I utilized Python libraries, specifically Matplotlib and Seaborn, to automate the generation of KDE density plots, regional boxplots, and scatter matrices. 
 
