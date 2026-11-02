@@ -1,7 +1,7 @@
 ---
 
 ### Childcare Burden Economic Analysis (`/Project_6_Childcare_Burden/README.md`)
-```markdown
+
 # Childcare Burden Regional Economic Analysis & Data Storytelling
 
 ## 📋 Overview
