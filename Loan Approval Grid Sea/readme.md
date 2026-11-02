@@ -1,7 +1,7 @@
 ---
 
-### Loan Approval Ensemble Classification (`/Project_5_Loan_Approval/README.md`)
-```markdown
+## Loan Approval Ensemble Classification (`/Project_5_Loan_Approval/README.md`)
+```text
 # Loan Approval Ensemble Classification
 
 ## 📋 Overview
