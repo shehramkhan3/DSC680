@@ -1,7 +1,7 @@
 ---
 
 ### Video Game Sales Exploratory Data Analysis (`/Project_7_Video_Game_EDA/README.md`)
-```markdown
+
 # Video Game Sales Exploratory Data Analysis (EDA)
 
 ## 📋 Overview
