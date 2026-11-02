@@ -1,7 +1,7 @@
 ---
 
 ### Housing Price Regression & PCA (`/Project_3_Housing_PCA/README.md`)
-```markdown
+
 # Housing Price Regression & Dimensionality Reduction
 
 ## 📋 Overview
