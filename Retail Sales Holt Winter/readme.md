@@ -1,7 +1,7 @@
 ---
 
 ### U.S. Retail Sales Time-Series Forecasting (`/Project_4_Retail_Timeseries/README.md`)
-```text
+
 # U.S. Retail Sales Time-Series Forecasting
 
 ## 📋 Overview
