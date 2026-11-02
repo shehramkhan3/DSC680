@@ -1,12 +1,26 @@
-Title: Childcare Burden Data Storytelling & Asset Generation
+---
 
-Objective:
-Programmatically generate three distinct visual mediums—an executive dashboard, an academic presentation, and a public poster—to communicate regional childcare demographics and cost outliers.
+### Childcare Burden Economic Analysis (`/Project_6_Childcare_Burden/README.md`)
+```markdown
+# Childcare Burden Regional Economic Analysis & Data Storytelling
 
-Data Notice & Methodology:
+## 📋 Overview
+Investigated regional U.S. childcare cost burdens relative to median family incomes. Integrates real regional wage anchors (BLS/Census median benchmarks) to perform empirical EDA, outlier quantification, and automated executive asset generation.
 
-Important Note: This project relies on a rigorously structured, synthetic dataset rather than real-world census data.
-I synthesized a log-normal dataset of 23,593 records designed specifically to match established statistical boundaries, featuring a mean of 16.39% and a maximum of 54.3%. I utilized Python libraries, specifically Matplotlib and Seaborn, to automate the generation of KDE density plots, regional boxplots, and scatter matrices. 
+---
 
-Outcomes:
-The code successfully compiled a 5-slide, 16:9 PowerPoint deck utilizing the python-pptx layout engine. Additionally, I rendered a high-resolution static infographic that emphasizes the "crushing cost" in extreme outlier counties, where childcare consumes up to 54.3% of family income.   
+## 🛠️ Tools Used
+* **Python 3.x**
+* **Data Processing & Stats:** `pandas`, `numpy`, `scikit-learn`
+* **Visualization:** `matplotlib`, `seaborn`
+* **Automation:** `python-pptx`
+
+---
+
+## 📁 File Structure
+```text
+Project_6_Childcare_Burden/
+├── childcare_analysis.py            # Main empirical analysis script
+├── childcare_burden_notebook.ipynb  # Interactive Jupyter notebook
+├── regional_childcare_burden.png    # High-resolution generated boxplot asset
+└── README.md                        # Project documentation
