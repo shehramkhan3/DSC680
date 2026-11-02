@@ -31,7 +31,7 @@
             <nav class="space-x-6 text-sm font-medium text-slate-300">
                 <a href="#about" class="hover:text-sky-400 transition">About</a>
                 <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
-                <a href="#dsc680" class="hover:text-sky-400 transition">Current Capstone</a>
+                <a href="#upcoming" class="hover:text-sky-400 transition">Upcoming</a>
                 <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
                 <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-4 py-2 rounded-lg transition inline-flex items-center gap-2">
                     <i class="fa-brands fa-github"></i> GitHub Repo
@@ -56,7 +56,7 @@
             <!-- High-Impact Executive Metrics -->
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mb-10">
                 <div class="bg-slateCard/70 border border-slate-800 p-4 rounded-xl">
-                    <div class="text-2xl font-bold text-sky-400">\$2.37M</div>
+                    <div class="text-2xl font-bold text-sky-400">$2.37M</div>
                     <div class="text-xs text-slate-400 mt-1">Simulated Downtime Savings via XGBoost Telemetry</div>
                 </div>
                 <div class="bg-slateCard/70 border border-slate-800 p-4 rounded-xl">
@@ -77,4 +77,320 @@
                 <a href="#projects" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-6 py-3 rounded-lg transition">
                     Explore Featured Projects
                 </a>
-                <a
+                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="border border-slate-700 hover:border-slate-500 text-slate-200 font-medium px-6 py-3 rounded-lg transition">
+                    View Source Code on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-16 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+            <div class="md:col-span-2">
+                <h2 class="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-sky-400 rounded"></span> About Me
+                </h2>
+                <p class="text-slate-300 leading-relaxed mb-4">
+                    I am an Engineer and Data Scientist specializing in predictive maintenance, process robustness, statistical quality control, and end-to-end machine learning pipelines. With a foundation in <strong>Industrial Engineering (B.S.)</strong> and <strong>Engineering Management (M.E.M.)</strong> from the University of Windsor alongside my <strong>Master of Science in Data Science</strong> at Bellevue University, I focus on solving high-stakes operational and business problems where physical manufacturing meets advanced analytics.
+                </p>
+                <p class="text-slate-400 leading-relaxed">
+                    Whether architecting leak-free telemetry pipelines that prevent catastrophic tooling failures on automotive assembly lines, compressing high-dimensional regression spaces with PCA, or automating executive data storytelling, my approach prioritizes model interpretability, strict validation hygiene, and quantifiable economic impact.
+                </p>
+            </div>
+            <div class="bg-slateCard border border-slate-800 rounded-xl p-6">
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-sky-400 mb-4">Core Technical Stack</h3>
+                <div class="space-y-3 text-sm">
+                    <div>
+                        <span class="text-white font-medium block">Languages & Databases</span>
+                        <span class="text-slate-400">Python, R, SQL, VBA, MATLAB</span>
+                    </div>
+                    <div>
+                        <span class="text-white font-medium block">Machine Learning & AI</span>
+                        <span class="text-slate-400">XGBoost, LightGBM, scikit-learn, TensorFlow / Keras (CNN), Holt-Winters, PCA</span>
+                    </div>
+                    <div>
+                        <span class="text-white font-medium block">Analytics & Visualization</span>
+                        <span class="text-slate-400">Pandas, NumPy, Matplotlib, Seaborn, Power BI, Streamlit, python-pptx</span>
+                    </div>
+                    <div>
+                        <span class="text-white font-medium block">Industrial & Process Systems</span>
+                        <span class="text-slate-400">Predictive Telemetry, Control Plans, PFMEA, Poka-Yoke Error-Proofing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK / PROJECTS SECTION (Projects 1 through 8) -->
+    <section id="projects" class="py-16 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-2 flex items-center gap-3">
+                        <span class="w-8 h-1 bg-sky-400 rounded"></span> Featured Data Science Projects
+                    </h2>
+                    <p class="text-slate-400 text-sm">End-to-end notebooks audited for sequential reproducibility and business impact.</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- Project 8 (New Telemetry Classifier) -->
+                <div class="bg-slateCard border border-sky-500/40 rounded-xl p-6 flex flex-col justify-between hover:border-sky-400 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/20 text-sky-300">Industrial ML & Telemetry (Project 8)</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">Optimized XGBoost</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Machine Learning Classifier for Early Anomaly Detection</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Executed an end-to-end predictive maintenance workflow using real Kaggle AI4I 2020 telemetry data ($N=10,000$) to predict machine failure from continuous physical sensor streams[cite: 1, 2, 7].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Engineered physics-guided interaction features (thermal differences, mechanical power, wear-torque ratio), addressed class imbalance via dynamic weighting, and tuned XGBoost via 5-fold cross-validation[cite: 1, 7].</li>
+                            <li><strong>Outcome:</strong> Implemented safety-first threshold tuning ($\ge 0.32$) to minimize uncaught breakdowns and benchmarked multi-model classifiers against traditional rule-based alarms[cite: 1, 7].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Python • XGBoost • LightGBM • scikit-learn</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 1: Predictive Maintenance (Previous Pipeline) -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/20 text-sky-300">Industrial ML & Telemetry (Project 1)</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">$2.37M Net Savings</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Predictive Maintenance Telemetry Pipeline</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Engineered an industrial ML pipeline across 10,000 sensor observations (temperature, rotational speed, torque) to detect equipment failures before breakdown[cite: 2, 5, 6].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Quarantined leakage flags, standardized on training partitions, and engineered physics-informed features[cite: 2, 5, 6].</li>
+                            <li><strong>Outcome:</strong> XGBoost achieved <strong>98.60% accuracy</strong> and <strong>86.8% failure recall</strong>, cutting simulated downtime costs by <strong>77.4% ($2,368,500)</strong>[cite: 2, 5, 6].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Python • XGBoost • Random Forest</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: MNIST CNN -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-purple-500/20 text-purple-300">Computer Vision / Deep Learning</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">98.89% Test Accuracy</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">MNIST Handwritten Digit Classification CNN</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Deployed a Convolutional Neural Network (CNN) to classify handwritten digits, demonstrating spatial feature extraction advantages[cite: 2].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Normalized grayscale image tensors and built Conv2D/MaxPooling2D blocks feeding a softmax classifier[cite: 2].</li>
+                            <li><strong>Outcome:</strong> Converged in 5 epochs to <strong>98.89% accuracy</strong>; Seaborn confusion matrix error analysis isolated ambiguous digit pairs[cite: 2].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">TensorFlow • Keras • Seaborn</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Housing Price Regression & PCA -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-amber-500/20 text-amber-300">Dimensionality Reduction & Regression</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">R² 0.65 → 0.84</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Housing Price Regression & Dimensionality Reduction</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Optimized a high-dimensional housing price regression model by benchmarking feature pruning and Principal Component Analysis (PCA)[cite: 2, 3].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Filtered high missingness columns, imputed medians/modes across 236 dummy variables, and applied PCA[cite: 2, 3].</li>
+                            <li><strong>Outcome:</strong> Compressed feature space to 127 components, boosting <strong>R² from 0.6478 to 0.8409</strong>[cite: 2, 3].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Python • PCA • Linear Regression</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: US Retail Sales Time-Series -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300">Time-Series Forecasting</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">5.69% MAPE</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">U.S. Retail Sales Time-Series Forecasting</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Modeled macroeconomic U.S. retail sales trends and 12-month seasonality across three decades of historical census data[cite: 3].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Reshaped wide matrices into a continuous DatetimeIndex, analyzing structural shocks (2008 Recession, COVID-19)[cite: 3].</li>
+                            <li><strong>Outcome:</strong> Trained an Additive Holt-Winters Exponential Smoothing model, achieving a <strong>5.69% MAPE</strong>[cite: 3].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Holt-Winters • Statsmodels • Pandas</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Loan Approval Ensemble Classification -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-rose-500/20 text-rose-300">Classification & Hyperparameter Tuning</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">83.33% Test Accuracy</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Loan Approval Ensemble Classification</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Constructed multi-model classification pipelines with 5-fold cross-validation to maximize binary loan approval prediction accuracy[cite: 3].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Benchmarked KNN against Logistic Regression and Random Forest via GridSearchCV[cite: 3].</li>
+                            <li><strong>Outcome:</strong> Identified proximity limitations in KNN and selected regularized Logistic Regression to reach <strong>83.33% test accuracy</strong>[cite: 3].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">GridSearchCV • scikit-learn</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Childcare Burden Storytelling -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-indigo-500/20 text-indigo-300">Executive Data Storytelling</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">23,593 Records</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Childcare Burden Data Storytelling & Asset Generation</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Programmatically generated an executive dashboard, slide deck, and high-resolution poster communicating regional childcare cost outliers[cite: 3, 4, 5].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Synthesized a log-normal distribution and automated KDE density plots and boxplots[cite: 4, 5].</li>
+                            <li><strong>Outcome:</strong> Compiled automated slide decks via <code>python-pptx</code> highlighting extreme cost burdens[cite: 4, 5].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Seaborn • Matplotlib • python-pptx</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7: Video Game Sales EDA -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition md:col-span-2">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-cyan-500/20 text-cyan-300">Exploratory Data Analysis & Feature Engineering</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">16,719 Records Audited</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Video Game Sales Exploratory Data Analysis (EDA)</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Extracted publisher performance metrics and regional revenue share patterns across 16,719 global video game records[cite: 1].
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-4 list-disc list-inside">
+                            <li><strong>Methodology & Outcome:</strong> Engineered North American revenue share features, ranked top global publishers, converted <code>'tbd'</code> strings to <code>NaN</code>, and imputed 6,704 missing <code>User_Score</code> records[cite: 1].</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Python • Pandas • NumPy</span>
+                        <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View in Repo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- UPCOMING PROJECTS SECTION (Projects 9 & 10) -->
+    <section id="upcoming" class="py-16 border-b border-slate-800 bg-slate-900/40">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-2 flex items-center gap-3">
+                <span class="w-8 h-1 bg-sky-400 rounded"></span> Upcoming Projects
+            </h2>
+            <p class="text-slate-400 text-sm mb-8">Reserved slots for upcoming data science projects in development.</p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project 9 Upcoming Block -->
+                <div class="border border-dashed border-slate-700 rounded-xl p-6 bg-slateCard/30 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-mono text-sky-400 uppercase">Project Slot 09</span>
+                        <h3 class="text-lg font-bold text-white mt-1 mb-2">Applied Data Science Project 2</h3>
+                        <p class="text-xs text-slate-400 mb-4">Objective, methodology, and executive whitepaper outcomes will be populated upon milestone completion.</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800">
+                        <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-400">Status: In Progress</span>
+                    </div>
+                </div>
+
+                <!-- Project 10 Upcoming Block -->
+                <div class="border border-dashed border-slate-700 rounded-xl p-6 bg-slateCard/30 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-mono text-sky-400 uppercase">Project Slot 10</span>
+                        <h3 class="text-lg font-bold text-white mt-1 mb-2">Applied Data Science Project 3</h3>
+                        <p class="text-xs text-slate-400 mb-4">Objective, methodology, and executive whitepaper outcomes will be populated upon milestone completion.</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800">
+                        <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-400">Status: Planned</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-16">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold text-white mb-3">Let's Connect</h2>
+            <p class="text-slate-400 text-sm max-w-xl mx-auto mb-8">
+                Interested in discussing predictive maintenance, manufacturing quality analytics, or applied machine learning roles? Reach out directly or explore my repositories below.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://github.com/shehramkhan3" target="_blank" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
+                    <i class="fa-brands fa-github text-sky-400"></i> github.com/shehramkhan3
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
+                    <i class="fa-brands fa-linkedin text-sky-400"></i> LinkedIn Profile
+                </a>
+                <a href="mailto:shehram.khan@example.com" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
+                    <i class="fa-solid fa-envelope text-sky-400"></i> Email Contact
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-500">
+        © 2026 Shehram Khan • Hosted via GitHub Pages (<a href="https://github.com/shehramkhan3/DSC680" class="text-sky-400 hover:underline">DSC680 Repository</a>)[cite: 1]
+    </footer>
+
+</body>
+</html>
