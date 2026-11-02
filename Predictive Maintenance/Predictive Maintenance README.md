@@ -1,4 +1,4 @@
-Markdown
+
 # Predictive Maintenance Telemetry Pipeline
 
 ## 📋 Overview
