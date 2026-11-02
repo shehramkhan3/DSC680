@@ -1,7 +1,7 @@
 ---
 
 ### MNIST Handwritten Digit Classification (`/Project_2_MNIST_CNN/README.md`)
-```markdown
+
 # MNIST Handwritten Digit Classification CNN
 
 ## 📋 Overview
