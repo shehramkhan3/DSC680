@@ -1,8 +1,8 @@
 ---
 
-### Project 2: MNIST Handwritten Digit Classification (`/Project_2_MNIST_CNN/README.md`)
+### MNIST Handwritten Digit Classification (`/Project_2_MNIST_CNN/README.md`)
 ```markdown
-# Project 2: MNIST Handwritten Digit Classification CNN
+# MNIST Handwritten Digit Classification CNN
 
 ## 📋 Overview
 Deployed a deep learning computer vision Convolutional Neural Network (CNN) to accurately classify handwritten digits, demonstrating the spatial feature extraction efficacy of Conv2D filters over dense networks.
