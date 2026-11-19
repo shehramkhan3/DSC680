@@ -1,25 +1,21 @@
 # Subscriber Churn & Wearable Biometric Attrition Analysis
 
-**Author:** Shehram Khan  
-**Domain:** Health & Fitness Operations / Subscription Retention Analytics  
-**Tech Stack:** Python 3.10, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter Notebook  
+## 📋 Overview
 
----
+Forecasted 30-day subscriber churn and workout attrition by combining 4,000 commercial fitness club records with 167,373 quality-filtered wearable workout trajectories via engineered workout decay velocity, Acute-to-Chronic Workload Ratio (ACWR), and Gradient Boosted Decision Trees (`95.75%` accuracy, `0.9856` ROC-AUC).
 
-## Project Overview
+## 🛠️ Tools Used
 
-Commercial fitness clubs and connected wellness applications routinely experience annual subscriber churn between 40% and 55%, with cancellations heavily concentrated in the first five months of membership. Because acquiring a new member costs 5x to 7x more than retaining an existing subscriber, relying on lagging administrative triggers—such as failed monthly billing or 30 days of turnstile inactivity—leaves operators too little time to intervene before exercise habits collapse.
+* Python 3.x
+* **Machine Learning / Data:** `scikit-learn` (Gradient Boosting, Random Forest, Logistic Regression), `pandas`, `numpy`
+* **Visualization:** `matplotlib`, `seaborn`
 
-This project builds an end-to-end machine learning classification and risk-stratification pipeline that pairs commercial club membership records with longitudinal wearable sensor telemetry. By engineering sports-science workload indices—specifically the **4-Week Workout Decay Ratio** and **Acute-to-Chronic Workload Ratio (ACWR)**—the model identifies early behavioral drift weeks before financial cancellation occurs.
-
----
-
-## Repository Contents
+## 📁 File Structure
 
 ```text
-subscriber-churn-wearable-biometrics/
-├── README.md                                                     # Project documentation & setup guide
-├── Milestone_2_FitPulse_Analysis_Shehram_Khan_v4.ipynb           # Runnable end-to-end analysis & modeling notebook
-├── Milestone_2_White_Paper_Complete_Shehram_Khan-v2.docx         # Full white paper with embedded figures & code
-├── Milestone_3_FitPulse_Presentation_Shehram_Khan.pptx           # 12-slide executive presentation deck
-├── gym_churn_us.csv                                              # Model Fitness Member Retention dataset (N = 4,000)
+Subscriber Churn Wearable Biometrics/
+├── Milestone_2_FitPulse_Analysis_Shehram_Khan_v4.ipynb           # Data prep, feature engineering, modeling & charts
+├── Milestone_2_White_Paper_Complete_Shehram_Khan-v2.docx         # Full APA white paper with embedded figures & code
+├── Milestone_3_FitPulse_Presentation_Shehram_Khan.pptx           # Executive slide deck
+├── gym_churn_us.csv                                              # Commercial gym retention dataset (N = 4,000)
+└── README.md                                                     # Project documentation
