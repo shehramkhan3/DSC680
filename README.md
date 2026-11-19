@@ -11,16 +11,16 @@ This repository contains 10 end-to-end data science and generative AI projects a
 
 | Project # | Project Title | Primary Domain | Key Metric / Outcome | Folder Link |
 | :---: | :--- | :--- | :--- | :--- |
-| **01** | Predictive Maintenance Telemetry Pipeline | Industrial ML & IoT | **$2.37M** net downtime savings (77.4% reduction) | [`/Project_1_Predictive_Maintenance`](https://github.com/shehramkhan3/DSC680/tree/main/Project_1_Predictive_Maintenance) |
-| **02** | MNIST Handwritten Digit Classification | Deep Learning / CV | **98.89%** test accuracy (Conv2D CNN) | [`/Project_2_MNIST_CNN`](https://github.com/shehramkhan3/DSC680/tree/main/Project_2_MNIST_CNN) |
-| **03** | Housing Price Regression & PCA | Dimensionality Reduction | **$R^2$ 0.6478 $\rightarrow$ 0.8409** (PCA compression) | [`/Project_3_Housing_PCA`](https://github.com/shehramkhan3/DSC680/tree/main/Project_3_Housing_PCA) |
-| **04** | U.S. Retail Sales Time-Series Forecasting | Macroeconomic Forecasting | **5.69% MAPE** (Holt-Winters Exponential Smoothing) | [`/Project_4_Retail_Timeseries`](https://github.com/shehramkhan3/DSC680/tree/main/Project_4_Retail_Timeseries) |
-| **05** | Loan Approval Ensemble Classification | Supervised Classification | **83.33% accuracy** (Tuned Logistic Regression vs KNN) | [`/Project_5_Loan_Approval`](https://github.com/shehramkhan3/DSC680/tree/main/Project_5_Loan_Approval) |
-| **06** | Childcare Burden Economic Analysis | Data Storytelling & EDA | **Empirical regional analysis** (23,593 records analyzed) | [`/Project_6_Childcare_Burden`](https://github.com/shehramkhan3/DSC680/tree/main/Project_6_Childcare_Burden) |
-| **07** | Video Game Sales Exploratory Data Analysis | Exploratory Data Hygiene | **16,719 records audited** & missing values imputed | [`/Project_7_Video_Game_EDA`](https://github.com/shehramkhan3/DSC680/tree/main/Project_7_Video_Game_EDA) |
-| **08** | Machine Learning Telemetry Classifier | Industrial IoT & ML | **Optimized XGBoost** with safety-first threshold tuning | [`/Project_8_Telemetry_Classifier`](https://github.com/shehramkhan3/DSC680/tree/main/Project_8_Telemetry_Classifier) |
-| **09** | CSCS AI Personal Trainer & Periodization Engine | Generative AI & Streamlit | **100% JSON schema & orthopedic safety** (SFT + Grounding) | [`/Project_9_CSCS_AI_Personal_Trainer`](https://github.com/shehramkhan3/DSC680/tree/main/Project_9_CSCS_AI_Personal_Trainer) |
-| **10** | Subscriber Churn & Wearable Biometrics Analytics | Behavioral & Biometric ML | **High-recall churn intervention** & heart-rate segmentation | [`/Project_10_Subscriber_Churn_Biometrics`](https://github.com/shehramkhan3/DSC680/tree/main/Project_10_Subscriber_Churn_Biometrics) |
+| **01** | Predictive Maintenance Telemetry Pipeline | Industrial ML & IoT | **$2.37M** net downtime savings (77.4% reduction) | [`/Predictive Maintenance`](https://github.com/shehramkhan3/DSC680/tree/main/Predictive%20Maintenance) |
+| **02** | MNIST Handwritten Digit Classification | Deep Learning / CV | **98.89%** test accuracy (Conv2D CNN) | [`/MNIST CNN CLASSIFICATION`](https://github.com/shehramkhan3/DSC680/tree/main/MNIST%20CNN%20CLASSIFICATION) |
+| **03** | Housing Price Regression & PCA | Dimensionality Reduction | **$R^2$ 0.6478 $\rightarrow$ 0.8409** (PCA compression) | [`/Housing Price Regression Model`](https://github.com/shehramkhan3/DSC680/tree/main/Housing%20Price%20Regression%20Model) |
+| **04** | U.S. Retail Sales Time-Series Forecasting | Macroeconomic Forecasting | **5.69% MAPE** (Holt-Winters Exponential Smoothing) | [`/Retail Sales Holt Winter`](https://github.com/shehramkhan3/DSC680/tree/main/Retail%20Sales%20Holt%20Winter) |
+| **05** | Loan Approval Ensemble Classification | Supervised Classification | **83.33% accuracy** (Tuned Logistic Regression vs KNN) | [`/Loan Approval Grid Sea`](https://github.com/shehramkhan3/DSC680/tree/main/Loan%20Approval%20Grid%20Sea) |
+| **06** | Childcare Burden Economic Analysis | Data Storytelling & EDA | **Empirical regional analysis** (23,593 records analyzed) | [`/Childcare Burden`](https://github.com/shehramkhan3/DSC680/tree/main/Childcare%20Burden) |
+| **07** | Video Game Sales Exploratory Data Analysis | Exploratory Data Hygiene | **16,719 records audited** & missing values imputed | [`/Video Games Sales EDA`](https://github.com/shehramkhan3/DSC680/tree/main/Video%20Games%20Sales%20EDA) |
+| **08** | Machine Learning Telemetry Classifier | Industrial IoT & ML | **Optimized XGBoost** with safety-first threshold tuning | [`/Building a Machine Learning Classifier...`](https://github.com/shehramkhan3/DSC680/tree/main/Building%20a%20Machine%20Learning%20Classifier%20for%20Early%20Anomaly%20Detection%20in%20Industrial%20Machinery%20Telemetry) |
+| **09** | CSCS AI Personal Trainer & Periodization Engine | Generative AI & Streamlit | **100% JSON schema & orthopedic safety** (SFT + Grounding) | [`/CSCS AI Personal Trailer`](https://github.com/shehramkhan3/DSC680/tree/main/CSCS%20AI%20Personal%20Trailer) |
+| **10** | Subscriber Churn & Wearable Biometrics Analytics | Behavioral & Biometric ML | **High-recall churn intervention** & heart-rate segmentation | [`/Subscriber Churn Wearable Biometrics`](https://github.com/shehramkhan3/DSC680/tree/main/Subscriber%20Churn%20Wearable%20Biometrics) |
 
 ---
 
