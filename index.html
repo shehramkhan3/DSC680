@@ -28,11 +28,11 @@
             <a href="#" class="text-xl font-bold tracking-tight text-white">
                 Shehram Khan <span class="text-sky-400 font-normal text-sm ml-2 hidden sm:inline">| Data Science & Manufacturing Analytics</span>
             </a>
-            <nav class="space-x-6 text-sm font-medium text-slate-300">
+            <nav class="space-x-6 text-sm font-medium text-slate-300 flex items-center">
                 <a href="#about" class="hover:text-sky-400 transition">About</a>
                 <a href="#projects" class="hover:text-sky-400 transition">Work / Projects</a>
                 <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
-                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-4 py-2 rounded-lg transition inline-flex items-center gap-2">
+                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" rel="noopener noreferrer" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-4 py-2 rounded-lg transition inline-flex items-center gap-2">
                     <i class="fa-brands fa-github"></i> GitHub Repo
                 </a>
             </nav>
@@ -59,7 +59,7 @@
                     <div class="text-xs text-slate-400 mt-1">Simulated Downtime Savings via XGBoost Telemetry</div>
                 </div>
                 <div class="bg-slateCard/70 border border-slate-800 p-4 rounded-xl">
-                    <div class="text-2xl font-bold text-sky-400">100%</div>
+                    <div class="text-2xl font-bold text-emerald-400">100%</div>
                     <div class="text-xs text-slate-400 mt-1">JSON Schema & Clinical Safety Compliance (SFT App)</div>
                 </div>
                 <div class="bg-slateCard/70 border border-slate-800 p-4 rounded-xl">
@@ -76,44 +76,54 @@
                 <a href="#projects" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-6 py-3 rounded-lg transition">
                     Explore All 10 Projects
                 </a>
-                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="border border-slate-700 hover:border-slate-500 text-slate-200 font-medium px-6 py-3 rounded-lg transition inline-flex items-center gap-2">
+                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" rel="noopener noreferrer" class="border border-slate-700 hover:border-slate-500 text-slate-200 font-medium px-6 py-3 rounded-lg transition inline-flex items-center gap-2">
                     <i class="fa-brands fa-github"></i> View Full Repository
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="py-16 border-b border-slate-800">
-        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+    <!-- =================================================================== -->
+    <!-- SECTION 1: ABOUT ME                                                 -->
+    <!-- =================================================================== -->
+    <section id="about" class="py-20 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 items-start">
             <div class="md:col-span-2">
-                <h2 class="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+                <span class="text-xs font-semibold uppercase tracking-widest text-sky-400 block mb-2">Background & Philosophy</span>
+                <h2 class="text-3xl font-bold text-white mb-6 flex items-center gap-3">
                     <span class="w-8 h-1 bg-sky-400 rounded"></span> About Me
                 </h2>
                 <p class="text-slate-300 leading-relaxed mb-4">
-                    I am an Engineer and Data Scientist specializing in predictive maintenance, process robustness, statistical quality control, and end-to-end machine learning pipelines. With a foundation in <strong>Industrial Engineering (B.S.)</strong> and <strong>Engineering Management (M.E.M.)</strong> from the University of Windsor alongside my <strong>Master of Science in Data Science</strong> at Bellevue University, I focus on solving high-stakes operational and business problems where physical manufacturing meets advanced analytics.
+                    I am an Industrial &amp; Process Control Engineer and Data Scientist specializing in predictive maintenance, manufacturing quality robustness, applied machine learning, and production generative AI systems. Holding a <strong>Bachelor of Science in Industrial Engineering</strong> and a <strong>Master of Science in Engineering Management</strong> from the University of Windsor alongside my <strong>Master of Science in Data Science</strong> at Bellevue University, I bridge physical manufacturing operations with modern statistical and deep learning architectures.
+                </p>
+                <p class="text-slate-300 leading-relaxed mb-4">
+                    Across automotive assembly and high-volume production environments, I have architected smart tooling error-proofing implementations, PFMEAs, Control Plans, and real-time sensor telemetry pipelines that prevent defects before they reach downstream stations.
                 </p>
                 <p class="text-slate-400 leading-relaxed">
-                    Whether architecting leak-free telemetry pipelines that prevent catastrophic tooling failures on automotive assembly lines, fine-tuning domain-constrained generative AI applications deployed in Streamlit, compressing high-dimensional regression spaces with PCA, or automating executive data storytelling, my approach prioritizes model interpretability, strict validation hygiene, and quantifiable economic impact.
+                    In my data science practice, I apply that exact same engineering discipline—leak-free validation hygiene, domain-constrained safety guardrails, model interpretability, and quantifiable financial ROI—whether reducing simulated plant downtime by $2.37M with XGBoost or deploying a supervised fine-tuned clinical AI workout engine in Streamlit.
                 </p>
             </div>
-            <div class="bg-slateCard border border-slate-800 rounded-xl p-6">
+            <div class="bg-slateCard border border-slate-800 rounded-xl p-6 shadow-lg">
                 <h3 class="text-sm font-semibold uppercase tracking-wider text-sky-400 mb-4">Core Technical Stack</h3>
-                <div class="space-y-3 text-sm">
+                <div class="space-y-4 text-sm">
                     <div>
-                        <span class="text-white font-medium block">Languages & Databases</span>
+                        <span class="text-white font-semibold block">Languages &amp; Databases</span>
                         <span class="text-slate-400">Python, R, SQL, VBA, MATLAB</span>
                     </div>
                     <div>
-                        <span class="text-white font-medium block">Machine Learning & GenAI</span>
-                        <span class="text-slate-400">XGBoost, LightGBM, scikit-learn, TensorFlow / Keras (CNN), OpenAI SFT & Structured Outputs, Holt-Winters, PCA</span>
+                        <span class="text-white font-semibold block">Machine Learning &amp; Deep Learning</span>
+                        <span class="text-slate-400">XGBoost, LightGBM, scikit-learn, TensorFlow / Keras (CNN), Holt-Winters, PCA</span>
                     </div>
                     <div>
-                        <span class="text-white font-medium block">Analytics & Deployment</span>
-                        <span class="text-slate-400">Pandas, NumPy, Matplotlib, Seaborn, Power BI, Streamlit, MLflow, python-pptx, GitHub Pages</span>
+                        <span class="text-white font-semibold block">Generative AI &amp; LLM Systems</span>
+                        <span class="text-slate-400">OpenAI API, Supervised Fine-Tuning (SFT), Structured Outputs, Schema Grounding</span>
                     </div>
                     <div>
-                        <span class="text-white font-medium block">Industrial & Process Systems</span>
+                        <span class="text-white font-semibold block">Deployment &amp; Visualization</span>
+                        <span class="text-slate-400">Streamlit, MLflow, Power BI, Matplotlib, Seaborn, python-pptx, GitHub Pages</span>
+                    </div>
+                    <div>
+                        <span class="text-white font-semibold block">Industrial &amp; Quality Systems</span>
                         <span class="text-slate-400">Predictive Telemetry, Control Plans, PFMEA, Poka-Yoke Error-Proofing</span>
                     </div>
                 </div>
@@ -121,28 +131,103 @@
         </div>
     </section>
 
-    <!-- WORK / PROJECTS SECTION (All 10 Complete Projects) -->
-    <section id="projects" class="py-16 border-b border-slate-800">
+    <!-- =================================================================== -->
+    <!-- SECTION 2: WORK / PROJECTS (PROJECTS 9 & 10 HIGHLIGHTED FIRST)      -->
+    <!-- =================================================================== -->
+    <section id="projects" class="py-20 border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
                 <div>
-                    <h2 class="text-2xl font-bold text-white mb-2 flex items-center gap-3">
-                        <span class="w-8 h-1 bg-sky-400 rounded"></span> Work & Featured Projects (10 End-to-End Case Studies)
+                    <span class="text-xs font-semibold uppercase tracking-widest text-sky-400 block mb-2">Portfolio Inventory</span>
+                    <h2 class="text-3xl font-bold text-white mb-2 flex items-center gap-3">
+                        <span class="w-8 h-1 bg-sky-400 rounded"></span> Work &amp; Featured Projects (10 Case Studies)
                     </h2>
-                    <p class="text-slate-400 text-sm">Organized into modular folders in GitHub with reproducible code, executive summaries, and interactive applications.</p>
+                    <p class="text-slate-400 text-sm">Highlighting flagship generative AI and behavioral analytics deployments followed by core industrial ML and forecasting work.</p>
                 </div>
-                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="mt-4 md:mt-0 text-sky-400 hover:text-sky-300 text-sm font-semibold inline-flex items-center gap-2">
-                    Browse All Folders on GitHub <i class="fa-solid fa-arrow-right"></i>
+                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" rel="noopener noreferrer" class="mt-4 md:mt-0 text-sky-400 hover:text-sky-300 text-sm font-semibold inline-flex items-center gap-2">
+                    Browse All 10 Folders on GitHub <i class="fa-solid fa-arrow-right"></i>
                 </a>
+            </div>
+
+            <!-- FLAGSHIP SPOTLIGHT: PROJECTS 09 & 10 (STAND-OUT STYLING) -->
+            <div class="mb-6">
+                <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-400 mb-4">
+                    <i class="fa-solid fa-star"></i> Flagship Applied AI &amp; Capstone Deployments
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 mb-10">
+
+                    <!-- Project 09: CSCS AI Personal Trainer (STAND OUT CARD) -->
+                    <div class="relative bg-gradient-to-br from-slate-800 via-slateCard to-emerald-950/30 border-2 border-emerald-400/70 rounded-2xl p-7 flex flex-col justify-between shadow-xl shadow-emerald-950/30 hover:border-emerald-300 transition">
+                        <div>
+                            <div class="flex flex-wrap justify-between items-center gap-2 mb-4">
+                                <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-emerald-400 text-slate-950 inline-flex items-center gap-1.5">
+                                    <i class="fa-solid fa-bolt"></i> Flagship Project 09 • GenAI &amp; Streamlit App
+                                </span>
+                                <span class="text-xs text-emerald-300 font-mono font-bold bg-emerald-500/15 border border-emerald-500/30 px-2.5 py-1 rounded">
+                                    100% Schema &amp; Safety
+                                </span>
+                            </div>
+                            <h3 class="text-2xl font-extrabold text-white mb-3">CSCS AI Personal Trainer &amp; Clinical Periodization Engine</h3>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                                Architected and deployed an interactive <strong>Streamlit</strong> web application powered by a supervised fine-tuning (SFT) and schema-grounded OpenAI inference engine for injury-safe workout programming.
+                            </p>
+                            <ul class="text-xs text-slate-200 space-y-2 mb-6 list-disc list-inside">
+                                <li><strong>Engineering Architecture:</strong> Curated an 80-example SFT dataset, built a dual-mode API fallback router for 2026 platform resilience, and enforced strict JSON schemas across multi-turn gym-floor swaps.</li>
+                                <li><strong>Clinical Impact:</strong> Eliminated axial-loading contraindications (e.g., Standing Calf Raises) for acute L5-S1 disc herniations and automated multi-lift 4-week overload and deload cycles.</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-t border-emerald-500/20 flex justify-between items-center">
+                            <span class="text-xs font-medium text-emerald-300">Python • OpenAI SFT • Streamlit • Pandas</span>
+                            <a href="https://github.com/shehramkhan3/DSC680/tree/main/CSCS%20AI%20Personal%20Trailer" target="_blank" rel="noopener noreferrer" class="bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold px-4 py-2 rounded-lg text-xs inline-flex items-center gap-1.5 transition">
+                                Inspect App &amp; Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 10: Subscriber Churn & Wearable Biometrics (STAND OUT CARD) -->
+                    <div class="relative bg-gradient-to-br from-slate-800 via-slateCard to-sky-950/40 border-2 border-sky-400/70 rounded-2xl p-7 flex flex-col justify-between shadow-xl shadow-sky-950/30 hover:border-sky-300 transition">
+                        <div>
+                            <div class="flex flex-wrap justify-between items-center gap-2 mb-4">
+                                <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-sky-400 text-slate-950 inline-flex items-center gap-1.5">
+                                    <i class="fa-solid fa-heart-pulse"></i> Flagship Project 10 • Behavioral &amp; Biometric ML
+                                </span>
+                                <span class="text-xs text-sky-300 font-mono font-bold bg-sky-500/15 border border-sky-500/30 px-2.5 py-1 rounded">
+                                    Multi-Source Telemetry
+                                </span>
+                            </div>
+                            <h3 class="text-2xl font-extrabold text-white mb-3">Subscriber Churn &amp; Wearable Biometrics Analytics</h3>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                                Executed end-to-end predictive modeling across <strong>Model Fitness</strong> subscriber records and <strong>Endomondo</strong> wearable workout telemetry to forecast member attrition and segment physiological exertion.
+                            </p>
+                            <ul class="text-xs text-slate-200 space-y-2 mb-6 list-disc list-inside">
+                                <li><strong>Feature Engineering:</strong> Synthesized longitudinal session frequency, contract tenure, group-class attendance, and cardiovascular heart-rate zone features across multi-source fitness datasets.</li>
+                                <li><strong>Business Outcome:</strong> Delivered high-recall churn risk intervention thresholds and biometric cohort profiles backed by a full APA technical whitepaper and executive slide deck.</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-t border-sky-500/20 flex justify-between items-center">
+                            <span class="text-xs font-medium text-sky-300">Python • XGBoost • LightGBM • scikit-learn</span>
+                            <a href="https://github.com/shehramkhan3/DSC680/tree/main/Subscriber%20Churn%20Wearable%20Biometrics" target="_blank" rel="noopener noreferrer" class="bg-sky-400 hover:bg-sky-300 text-slate-950 font-bold px-4 py-2 rounded-lg text-xs inline-flex items-center gap-1.5 transition">
+                                Inspect Notebooks &amp; Paper <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CORE DATA SCIENCE & INDUSTRIAL ML PORTFOLIO (PROJECTS 01 - 08) -->
+            <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+                <i class="fa-solid fa-layer-group text-sky-400"></i> Core Industrial ML, Deep Learning &amp; Forecasting Projects
             </div>
 
             <div class="grid md:grid-cols-2 gap-6">
 
                 <!-- Project 01: Predictive Maintenance Telemetry Pipeline -->
-                <div class="bg-slateCard border border-sky-500/40 rounded-xl p-6 flex flex-col justify-between hover:border-sky-400 transition">
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/20 text-sky-300">Project 01 • Industrial ML & Telemetry</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/20 text-sky-300">Project 01 • Industrial ML &amp; Telemetry</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">$2.37M Net Savings</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2">Predictive Maintenance Telemetry Pipeline</h3>
@@ -156,89 +241,17 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">Python • XGBoost • Random Forest</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/01-predictive-maintenance-telemetry" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Predictive%20Maintenance" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 02: Early Anomaly Detection Classifier -->
+                <!-- Project 02: MNIST CNN -->
                 <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/20 text-sky-300">Project 02 • Industrial ML & Safety Tuning</span>
-                            <span class="text-xs text-emerald-400 font-mono font-semibold">Optimized XGBoost</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">Machine Learning Classifier for Early Anomaly Detection</h3>
-                        <p class="text-slate-400 text-sm mb-4">
-                            Executed an end-to-end predictive maintenance workflow using Kaggle AI4I 2020 telemetry data (N = 10,000) to predict machine failure from continuous physical sensor streams.
-                        </p>
-                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
-                            <li><strong>Methodology:</strong> Engineered physics-guided interaction features (thermal differences, mechanical power, wear-torque ratio) and tuned XGBoost via 5-fold cross-validation.</li>
-                            <li><strong>Outcome:</strong> Implemented safety-first threshold tuning (&ge; 0.32) to minimize uncaught breakdowns against traditional rule-based alarms.</li>
-                        </ul>
-                    </div>
-                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
-                        <span class="text-xs text-slate-500">Python • XGBoost • LightGBM • scikit-learn</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/02-early-anomaly-detection-classifier" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
-                            View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 03: CSCS AI Personal Trainer & Clinical Periodization Engine -->
-                <div class="bg-slateCard border border-sky-500/40 rounded-xl p-6 flex flex-col justify-between hover:border-sky-400 transition">
-                    <div>
-                        <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300">Project 03 • Generative AI & Streamlit App</span>
-                            <span class="text-xs text-emerald-400 font-mono font-semibold">100% Schema & Safety</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">CSCS AI Personal Trainer & Clinical Periodization Engine</h3>
-                        <p class="text-slate-400 text-sm mb-4">
-                            Built a production Streamlit web application powered by a supervised fine-tuning (SFT) and schema-grounded OpenAI inference engine for injury-safe workout programming.
-                        </p>
-                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
-                            <li><strong>Methodology:</strong> Engineered an 80-example SFT dataset, dual-mode API fallback router, automated orthopedic contraindication audits, and multi-turn gym-floor swaps.</li>
-                            <li><strong>Outcome:</strong> Achieved <strong>100% deterministic JSON compliance</strong>, zero axial-loading leakage on L5-S1 disc cases, and automated multi-lift 4-week overload/deload matrices.</li>
-                        </ul>
-                    </div>
-                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
-                        <span class="text-xs text-slate-500">Python • OpenAI API • Streamlit • Pandas</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/03-cscs-ai-personal-trainer" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
-                            View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 04: Subscriber Churn & Wearable Biometrics Analytics -->
-                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
-                    <div>
-                        <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-teal-500/20 text-teal-300">Project 04 • Behavioral & Biometric ML</span>
-                            <span class="text-xs text-emerald-400 font-mono font-semibold">Churn & Telemetry</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">Subscriber Churn & Wearable Biometrics Analytics</h3>
-                        <p class="text-slate-400 text-sm mb-4">
-                            Conducted end-to-end predictive modeling across Model Fitness subscriber records and Endomondo wearable workout telemetry to forecast member attrition.
-                        </p>
-                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
-                            <li><strong>Methodology:</strong> Engineered longitudinal session frequency, contract tenure, and heart-rate exertion features across multi-source fitness datasets.</li>
-                            <li><strong>Outcome:</strong> Delivered high-recall churn risk segmentation and actionable retention intervention thresholds supported by an executive whitepaper.</li>
-                        </ul>
-                    </div>
-                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
-                        <span class="text-xs text-slate-500">Python • XGBoost • scikit-learn • Seaborn</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/04-subscriber-churn-wearable-biometrics" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
-                            View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 05: MNIST CNN -->
-                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
-                    <div>
-                        <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-purple-500/20 text-purple-300">Project 05 • Computer Vision / Deep Learning</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-purple-500/20 text-purple-300">Project 02 • Computer Vision / Deep Learning</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">98.89% Test Accuracy</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2">MNIST Handwritten Digit Classification CNN</h3>
@@ -252,20 +265,20 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">TensorFlow • Keras • Seaborn</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/05-mnist-digit-classification-cnn" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/MNIST%20CNN%20CLASSIFICATION" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 06: Housing Price Regression & PCA -->
+                <!-- Project 03: Housing Price Regression & PCA -->
                 <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-amber-500/20 text-amber-300">Project 06 • Dimensionality Reduction</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-amber-500/20 text-amber-300">Project 03 • Dimensionality Reduction</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">R² 0.65 &rarr; 0.84</span>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-2">Housing Price Regression & Dimensionality Reduction</h3>
+                        <h3 class="text-xl font-bold text-white mb-2">Housing Price Regression &amp; Dimensionality Reduction</h3>
                         <p class="text-slate-400 text-sm mb-4">
                             Optimized a high-dimensional housing price regression model by benchmarking feature pruning and Principal Component Analysis (PCA).
                         </p>
@@ -276,17 +289,17 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">Python • PCA • Linear Regression</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/06-housing-price-regression-pca" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Housing%20Price%20Regression%20Model" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 07: US Retail Sales Time-Series -->
+                <!-- Project 04: US Retail Sales Time-Series -->
                 <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300">Project 07 • Time-Series Forecasting</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300">Project 04 • Time-Series Forecasting</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">5.69% MAPE</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2">U.S. Retail Sales Time-Series Forecasting</h3>
@@ -300,17 +313,17 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">Holt-Winters • Statsmodels • Pandas</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/07-us-retail-sales-forecasting" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Retail%20Sales%20Holt%20Winter" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 08: Loan Approval Ensemble Classification -->
+                <!-- Project 05: Loan Approval Ensemble Classification -->
                 <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-rose-500/20 text-rose-300">Project 08 • Classification & Tuning</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-rose-500/20 text-rose-300">Project 05 • Classification &amp; Tuning</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">83.33% Test Accuracy</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2">Loan Approval Ensemble Classification</h3>
@@ -324,20 +337,20 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">GridSearchCV • scikit-learn</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/08-loan-approval-classification" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Loan%20Approval%20Grid%20Sea" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 09: Childcare Burden Storytelling -->
+                <!-- Project 06: Childcare Burden Storytelling -->
                 <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-indigo-500/20 text-indigo-300">Project 09 • Executive Data Storytelling</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-indigo-500/20 text-indigo-300">Project 06 • Executive Data Storytelling</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">23,593 Records</span>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-2">Childcare Burden Data Storytelling & Asset Generation</h3>
+                        <h3 class="text-xl font-bold text-white mb-2">Childcare Burden Data Storytelling &amp; Asset Generation</h3>
                         <p class="text-slate-400 text-sm mb-4">
                             Programmatically generated an executive dashboard, slide deck, and high-resolution poster communicating regional childcare cost outliers.
                         </p>
@@ -348,17 +361,17 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">Seaborn • Matplotlib • python-pptx</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/09-childcare-burden-data-storytelling" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Childcare%20Burden" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 10: Video Game Sales EDA -->
+                <!-- Project 07: Video Game Sales EDA -->
                 <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
                     <div>
                         <div class="flex justify-between items-start gap-4 mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-cyan-500/20 text-cyan-300">Project 10 • EDA & Feature Engineering</span>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-cyan-500/20 text-cyan-300">Project 07 • EDA &amp; Feature Engineering</span>
                             <span class="text-xs text-emerald-400 font-mono font-semibold">16,719 Records Audited</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2">Video Game Sales Exploratory Data Analysis (EDA)</h3>
@@ -372,7 +385,31 @@
                     </div>
                     <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
                         <span class="text-xs text-slate-500">Python • Pandas • NumPy</span>
-                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/10-video-game-sales-eda" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Video%20Games%20Sales%20EDA" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
+                            View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 08: Early Anomaly Detection Classifier -->
+                <div class="bg-slateCard border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-slate-600 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-sky-500/20 text-sky-300">Project 08 • Industrial ML &amp; Safety Tuning</span>
+                            <span class="text-xs text-emerald-400 font-mono font-semibold">Optimized XGBoost</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Machine Learning Classifier for Early Anomaly Detection</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Executed an end-to-end predictive maintenance workflow using Kaggle AI4I 2020 telemetry data (N = 10,000) to predict machine failure from continuous physical sensor streams.
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-1.5 mb-6 list-disc list-inside">
+                            <li><strong>Methodology:</strong> Engineered physics-guided interaction features (thermal differences, mechanical power, wear-torque ratio) and tuned XGBoost via 5-fold cross-validation.</li>
+                            <li><strong>Outcome:</strong> Implemented safety-first threshold tuning (&ge; 0.32) to minimize uncaught breakdowns against traditional rule-based alarms.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 flex justify-between items-center">
+                        <span class="text-xs text-slate-500">Python • XGBoost • LightGBM • scikit-learn</span>
+                        <a href="https://github.com/shehramkhan3/DSC680/tree/main/Building%20a%20Machine%20Learning%20Classifier%20for%20Early%20Anomaly%20Detection%20in%20Industrial%20Machinery%20Telemetry" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1">
                             View Code <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
@@ -383,43 +420,62 @@
             <!-- Central Return-to-Repository Banner -->
             <div class="mt-10 bg-slateCard/60 border border-slate-800 rounded-xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
-                    <h3 class="text-base font-bold text-white">Inspect Complete Source Code, Notebooks & Documentation</h3>
+                    <h3 class="text-base font-bold text-white">Inspect Complete Source Code, Notebooks &amp; Documentation</h3>
                     <p class="text-xs text-slate-400 mt-1">All 10 projects are organized into standalone directories with reproducible Python scripts, datasets, and executive reports.</p>
                 </div>
-                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-5 py-2.5 rounded-lg text-sm transition inline-flex items-center gap-2 shrink-0">
+                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" rel="noopener noreferrer" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-5 py-2.5 rounded-lg text-sm transition inline-flex items-center gap-2 shrink-0">
                     <i class="fa-brands fa-github"></i> Return to DSC680 Repository
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="py-16">
+    <!-- =================================================================== -->
+    <!-- SECTION 3: CONTACT                                                  -->
+    <!-- =================================================================== -->
+    <section id="contact" class="py-20">
         <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-2xl font-bold text-white mb-3">Let's Connect</h2>
+            <span class="text-xs font-semibold uppercase tracking-widest text-sky-400 block mb-2">Get In Touch</span>
+            <h2 class="text-3xl font-bold text-white mb-3">Contact &amp; Repository Links</h2>
             <p class="text-slate-400 text-sm max-w-xl mx-auto mb-8">
-                Interested in discussing predictive maintenance, manufacturing quality analytics, or applied machine learning & generative AI roles? Reach out directly or explore my repositories below.
+                Interested in discussing predictive maintenance, manufacturing quality analytics, or applied machine learning &amp; generative AI roles? Reach out directly or explore my repositories below.
             </p>
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
-                    <i class="fa-brands fa-github text-sky-400"></i> DSC680 Repository
+                <a href="https://github.com/shehramkhan3/DSC680" target="_blank" rel="noopener noreferrer" class="bg-sky-500 hover:bg-sky-400 text-slate-950 px-5 py-3 rounded-lg text-sm font-semibold inline-flex items-center gap-2 transition">
+                    <i class="fa-brands fa-github"></i> Back to DSC680 Repository
                 </a>
-                <a href="https://github.com/shehramkhan3" target="_blank" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
-                    <i class="fa-solid fa-code-branch text-sky-400"></i> github.com/shehramkhan3
+                <a href="https://github.com/shehramkhan3" target="_blank" rel="noopener noreferrer" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
+                    <i class="fa-solid fa-code-branch text-sky-400"></i> GitHub Profile
                 </a>
-                <a href="https://www.linkedin.com/in/shehramkhan/" target="_blank" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
+                <a href="https://www.linkedin.com/in/shehramkhan/" target="_blank" rel="noopener noreferrer" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
                     <i class="fa-brands fa-linkedin text-sky-400"></i> LinkedIn Profile
                 </a>
-                <a href="mailto:shehramaayubkhan@outlook.com" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
-                    <i class="fa-solid fa-envelope text-sky-400"></i> Email Contact
+                <a href="mailto:shehramaayubkhan@outlook.com?subject=Portfolio%20Inquiry%20-%20Shehram%20Khan" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition">
+                    <i class="fa-solid fa-envelope text-sky-400"></i> Send Email
                 </a>
+                <button type="button" onclick="copyEmail()" id="copyEmailBtn" class="bg-slateCard hover:bg-slate-800 border border-slate-700 text-white px-5 py-3 rounded-lg text-sm font-medium inline-flex items-center gap-2 transition cursor-pointer">
+                    <i class="fa-regular fa-copy text-sky-400"></i> <span id="copyEmailText">Copy Email Address</span>
+                </button>
             </div>
         </div>
     </section>
 
     <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-500">
-        &copy; 2026 Shehram Khan &bull; Hosted via GitHub Pages (<a href="https://github.com/shehramkhan3/DSC680" target="_blank" class="text-sky-400 hover:underline">github.com/shehramkhan3/DSC680</a>)
+        &copy; 2026 Shehram Khan &bull; Hosted via GitHub Pages (<a href="https://github.com/shehramkhan3/DSC680" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline">github.com/shehramkhan3/DSC680</a>)
     </footer>
+
+    <script>
+        function copyEmail() {
+            const email = "shehramaayubkhan@outlook.com";
+            navigator.clipboard.writeText(email).then(() => {
+                const label = document.getElementById("copyEmailText");
+                label.textContent = "Copied: " + email;
+                setTimeout(() => {
+                    label.textContent = "Copy Email Address";
+                }, 3000);
+            });
+        }
+    </script>
 
 </body>
 </html>
