@@ -15,7 +15,7 @@ Forecasted 30-day subscriber churn and workout attrition by combining 4,000 comm
 ```text
 Subscriber Churn Wearable Biometrics/
 ├── Milestone_2_FitPulse_Analysis_Shehram_Khan_v4.ipynb           # Data prep, feature engineering, modeling & charts
-├── Milestone_2_White_Paper_Complete_Shehram_Khan-v2.docx         # Full APA white paper with embedded figures & code
+├── Shehram+Khan+Project+Milestone+2.pdf                          # Full APA white paper with embedded figures & code
 ├── Milestone_3_FitPulse_Presentation_Shehram_Khan.pptx           # Executive slide deck
 ├── gym_churn_us.csv                                              # Commercial gym retention dataset (N = 4,000)
 └── README.md                                                     # Project documentation
